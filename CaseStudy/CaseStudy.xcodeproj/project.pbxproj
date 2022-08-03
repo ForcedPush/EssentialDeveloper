@@ -10,6 +10,7 @@
 		BE48EF79289A001B000BC3A8 /* CaseStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE48EF70289A001A000BC3A8 /* CaseStudy.framework */; };
 		BE48EF7E289A001B000BC3A8 /* CaseStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE48EF7D289A001B000BC3A8 /* CaseStudyTests.swift */; };
 		BE48EF89289A004A000BC3A8 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE48EF88289A004A000BC3A8 /* FeedItem.swift */; };
+		BE48EF8B289A00F8000BC3A8 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE48EF8A289A00F8000BC3A8 /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 		BE48EF78289A001B000BC3A8 /* CaseStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaseStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE48EF7D289A001B000BC3A8 /* CaseStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseStudyTests.swift; sourceTree = "<group>"; };
 		BE48EF88289A004A000BC3A8 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		BE48EF8A289A00F8000BC3A8 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				BE48EF88289A004A000BC3A8 /* FeedItem.swift */,
+				BE48EF8A289A00F8000BC3A8 /* FeedLoader.swift */,
 			);
 			path = CaseStudy;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE48EF8B289A00F8000BC3A8 /* FeedLoader.swift in Sources */,
 				BE48EF89289A004A000BC3A8 /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
