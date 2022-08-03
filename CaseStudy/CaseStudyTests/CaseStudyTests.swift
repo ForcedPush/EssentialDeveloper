@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import CaseStudy
 
 class CaseStudyTests: XCTestCase {
 
@@ -27,7 +28,7 @@ class CaseStudyTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        measure {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }
