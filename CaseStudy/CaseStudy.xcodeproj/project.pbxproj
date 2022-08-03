@@ -71,8 +71,7 @@
 		BE48EF72289A001A000BC3A8 /* CaseStudy */ = {
 			isa = PBXGroup;
 			children = (
-				BE48EF88289A004A000BC3A8 /* FeedItem.swift */,
-				BE48EF8A289A00F8000BC3A8 /* FeedLoader.swift */,
+				BE48EF8C289A01A6000BC3A8 /* Feed Feature */,
 			);
 			path = CaseStudy;
 			sourceTree = "<group>";
@@ -83,6 +82,15 @@
 				BE48EF7D289A001B000BC3A8 /* CaseStudyTests.swift */,
 			);
 			path = CaseStudyTests;
+			sourceTree = "<group>";
+		};
+		BE48EF8C289A01A6000BC3A8 /* Feed Feature */ = {
+			isa = PBXGroup;
+			children = (
+				BE48EF88289A004A000BC3A8 /* FeedItem.swift */,
+				BE48EF8A289A00F8000BC3A8 /* FeedLoader.swift */,
+			);
+			path = "Feed Feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
